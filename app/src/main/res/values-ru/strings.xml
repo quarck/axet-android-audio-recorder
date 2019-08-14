@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Диктофон</string>
+
+    <string-array name="themes_text">
+        <item>Тема Светлая</item>
+        <item>Тема Темная</item>
+    </string-array>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (по умолчанию)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (телефон)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Микрофон</item>
+        <item>Необработанный</item>
+        <item>Bluetooth</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Моно (по умолчанию)</item>
+        <item>Стерео</item>
+    </string-array>
+
+    <string name="no_folder_app">Программа для просмотра папок не установлена</string>
+    <string name="hold_by_call">пауза (звонок)</string>
+    <string name="hold_by_bluetooth">пауза (bluetooth отключен)</string>
+    <string name="recording_status_recording">запись</string>
+    <string name="recording_status_encoding">кодировка</string>
+    <string name="recording_status_pause">пауза</string>
+    <string name="recording_status_edit">редактор</string>
+    <string name="confirm_cancel">Отменить запись</string>
+    <string name="encoding_title">Кодирование...</string>
+    <string name="recording_title">Запись...</string>
+    <string name="pause_title">Пауза...</string>
+    <string name="open_recording_folder">Открыть папку с записями</string>
+    <string name="recording_list_is_empty">Список записей пуст.\n\nНажмите на \'Микрофон\' чтобы начать запись.</string>
+    <string name="record_button">Запись</string>
+    <string name="cut_button">Отрезать</string>
+    <string name="stop_button">Стоп</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="pause_button">Пауза</string>
+
+    <string name="pref_storage_title">Папка для хранения</string>
+    <string name="pref_rate_title">Частота записи</string>
+    <string name="pref_encoding_title">Кодировка</string>
+    <string name="pref_encoding_summary">Формат выходного файла (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">Режим</string>
+    <string name="pref_mode_summary">Режим записи</string>
+    <string name="pref_nameformat_title">Имя нового файла</string>
+    <string name="pref_pausecalls_title">Пауза на время разговора</string>
+    <string name="pref_pausecalls_summary">Останавливать запись на время разговора по телефону</string>
+    <string name="pref_silence_title">Режим тишины</string>
+    <string name="pref_silence_summary">Включать беззвучный режим на время записи</string>
+    <string name="pref_lockscreen_title">Панель управления</string>
+    <string name="pref_lockscreen_summary">Показывать панель управления когда телефон заблокирован</string>
+    <string name="pref_theme_title">Тема приложения</string>
+    <string name="pref_theme_summary">Установить тему приложения (темная / светлая)</string>
+    <string name="pref_application">Приложение</string>
+    <string name="pref_recordings">Записи</string>
+    <string name="pref_fly_title">Кодирование на лету</string>
+    <string name="pref_fly_summary">Кодирование на лету отключает редактирование и восстановление в случае ошибок</string>
+    <string name="menu_search">Поиск</string>
+    <string name="save_as_wav">Save as WAV</string>
+    <string name="auto_close">Auto close in (%1$d)</string>
+    <string name="mic_muted_error">Mic muted</string>
+    <string name="mic_muted_pie">Android Pie and above prevent idle background apps from using microphone. Please disable selinux or install previous android version!</string>
+    <string name="mic_paused">Mic paused by OS, recording time is less then data recorded, check if you device supports background recording or it is fast enougth for selected settings</string>
+    <string name="tile_start_recording">Start Recording</string>
+    <string name="tile_stop_recording">Stop Recording</string>
+</resources>

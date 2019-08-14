@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (predefinito)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (telefono)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mic</item>
+        <item>Unprocessed</item>
+        <item>Bluetooth</item>
+    </string-array>
+
+    <string-array name="themes_text">
+        <item>Tema Bianco</item>
+        <item>Tema Scuro</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (predefinito)</item>
+        <item>Stereo</item>
+    </string-array>
+
+    <string name="no_folder_app">Nessuna app per la visione delle cartelle risulta installa</string>
+    <string name="hold_by_call">pausa (per chiamata)</string>
+    <string name="recording_status_recording">registrando</string>
+    <string name="recording_status_encoding">encoding</string>
+    <string name="recording_status_pause">pausa</string>
+    <string name="recording_status_edit">modifica</string>
+    <string name="confirm_cancel">Conferma annullamento</string>
+    <string name="encoding_title">Codifica in corso ...</string>
+    <string name="pause_title">Pausa...</string>
+    <string name="recording_title">Registrando</string>
+    <string name="open_recording_folder">Apri la cartella delle registrazioni</string>
+    <string name="recording_list_is_empty">La lista delle registrazioni è vuota\n\nClicca Registra per iniziare a registrare</string>
+    <string name="record_button">Record</string>
+    <string name="cut_button">Cut</string>
+    <string name="stop_button">Stop</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="pause_button">Pause</string>
+
+    <string name="pref_storage_title">Salva file in ...</string>
+    <string name="pref_rate_title">Frequenza di campionamento</string>
+    <string name="pref_encoding_title">Codifica</string>
+    <string name="pref_encoding_summary">Formato del file prodotto (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">Canali</string>
+    <string name="pref_mode_summary">Numero di canali per la registrazione</string>
+    <string name="pref_nameformat_title">Formato per il nome</string>
+    <string name="pref_pausecalls_title">Pausa durante le chiamate</string>
+    <string name="pref_pausecalls_summary">Ferma la registrazione quando rispondi a chiamate e continua quando metti giù</string>
+    <string name="pref_silence_title">Silenzioso</string>
+    <string name="pref_silence_summary">Metti in cellulare in \'silenzioso\' durante le registrazioni</string>
+    <string name="pref_lockscreen_title">Controlli su schermo bloccato</string>
+    <string name="pref_lockscreen_summary">Mostra i controlli quando il cellulare è bloccato</string>
+    <string name="pref_theme_title">Tema applicazione</string>
+    <string name="pref_theme_summary">Imposta il tema dell\'applicazione (scuro / chiaro)</string>
+    <string name="pref_application">Application</string>
+    <string name="pref_recordings">Recordings</string>
+    <string name="pref_fly_title">Encoding on Fly</string>
+    <string name="pref_fly_summary">Encoding on fly disable editing, and crash recovery</string>
+    <string name="hold_by_bluetooth">pause (bluetooth disconnected)</string>
+    <string name="menu_search">Search</string>
+    <string name="save_as_wav">Save as WAV</string>
+    <string name="auto_close">Auto close in (%1$d)</string>
+    <string name="mic_muted_error">Mic muted</string>
+    <string name="mic_muted_pie">Android Pie and above prevent idle background apps from using microphone. Please disable selinux or install previous android version!</string>
+    <string name="mic_paused">Mic paused by OS, recording time is less then data recorded, check if you device supports background recording or it is fast enougth for selected settings</string>
+    <string name="tile_start_recording">Start Recording</string>
+    <string name="tile_stop_recording">Stop Recording</string>
+</resources>

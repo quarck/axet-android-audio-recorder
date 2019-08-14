@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (Standard)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (Telefon)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mic</item>
+        <item>Unprocessed</item>
+        <item>Bluetooth</item>
+    </string-array>
+
+    <string-array name="themes_text">
+        <item>Theme Weiß</item>
+        <item>Theme Dunkel</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (Standard)</item>
+        <item>Stereo</item>
+    </string-array>
+
+    <string name="no_folder_app">Keine App zur Anzeige von Ordnern installiert</string>
+    <string name="hold_by_call">pausieren (bei Anruf)</string>
+    <string name="recording_status_recording">aufnehmen</string>
+    <string name="recording_status_encoding">kodieren</string>
+    <string name="recording_status_pause">pausieren</string>
+    <string name="recording_status_edit">bearbeiten</string>
+    <string name="confirm_cancel">Bestätige Abbruch</string>
+    <string name="encoding_title">Kodierung...</string>
+    <string name="recording_title">Aufnahme</string>
+    <string name="pause_title">Pause...</string>
+    <string name="open_recording_folder">Öffne Aufnahmeordner</string>
+    <string name="recording_list_is_empty">Aufnahmeliste ist leer\n\nDrücke \'Aufnehmen\', um die Aufnahme zu starten</string>
+    <string name="record_button">Aufnahme</string>
+    <string name="cut_button">Schneiden</string>
+    <string name="stop_button">Stop</string>
+    <string name="cancel_button">Abbruch</string>
+    <string name="pause_button">Pause</string>
+
+    <string name="pref_storage_title">Speicherpfad</string>
+    <string name="pref_rate_title">Abtastrate</string>
+    <string name="pref_encoding_title">Encoding</string>
+    <string name="pref_encoding_summary">Ausgabedateiformate (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">Mono/Stereo</string>
+    <string name="pref_mode_summary">Aufnahmekanäle</string>
+    <string name="pref_nameformat_title">Format für Name</string>
+    <string name="pref_pausecalls_title">Pausieren während Telefonaten</string>
+    <string name="pref_pausecalls_summary">Stoppe Aufnahme bei Anrufannahme und setze nach Auflegen fort</string>
+    <string name="pref_silence_title">Ruhe-Modus</string>
+    <string name="pref_silence_summary">Aktiviere Audio-Profil \'Nicht Stören\' während Aufnahmen</string>
+    <string name="pref_lockscreen_title">Steuerelemente im Sperrbildschirm</string>
+    <string name="pref_lockscreen_summary">Zeige Steuerelemente im Sperrbildschirm an</string>
+    <string name="pref_theme_title">App-Theme</string>
+    <string name="pref_theme_summary">Wähle App-Theme (dunkel / hell)</string>
+    <string name="pref_application">Application</string>
+    <string name="pref_recordings">Recordings</string>
+    <string name="pref_fly_title">Encoding on Fly</string>
+    <string name="pref_fly_summary">Encoding on fly disable editing, and crash recovery</string>
+    <string name="hold_by_bluetooth">pause (bluetooth disconnected)</string>
+    <string name="menu_search">Search</string>
+    <string name="save_as_wav">Save as WAV</string>
+    <string name="auto_close">Auto close in (%1$d)</string>
+    <string name="mic_muted_error">Mic muted</string>
+    <string name="mic_muted_pie">Android Pie and above prevent idle background apps from using microphone. Please disable selinux or install previous android version!</string>
+    <string name="mic_paused">Mic paused by OS, recording time is less then data recorded, check if you device supports background recording or it is fast enougth for selected settings</string>
+    <string name="tile_start_recording">Start Recording</string>
+    <string name="tile_stop_recording">Stop Recording</string>
+</resources>

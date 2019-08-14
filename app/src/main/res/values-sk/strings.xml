@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (predvolené)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (telefón)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mikrofón</item>
+        <item>Unprocessed</item>
+        <item>Bluetooth</item>
+    </string-array>
+
+    <string-array name="themes_text">
+        <item>Svetlý vzhľad</item>
+        <item>Tmavý vzhľad</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (predvolené)</item>
+        <item>Stereo</item>
+    </string-array>
+
+    <string name="no_folder_app">Nie je nainštalovaná žiadna aplikácia na zobrazenie obsahu priečinka</string>
+    <string name="hold_by_call">pozastavené (automaticky počas hovoru)</string>
+    <string name="recording_status_recording">nahrávanie</string>
+    <string name="recording_status_encoding">kódovanie</string>
+    <string name="recording_status_pause">pozastavené</string>
+    <string name="recording_status_edit">úpravy</string>
+    <string name="confirm_cancel">Potvrdiť zrušenie</string>
+    <string name="encoding_title">Kódovanie...</string>
+    <string name="pause_title">Pozastavené...</string>
+    <string name="recording_title">Nahrávanie</string>
+    <string name="open_recording_folder">Otvoriť priečinok s nahrávkami</string>
+    <string name="recording_list_is_empty">Zoznam nahrávok je prázdny\n
+   \n
+   Začnite klepnutím na tlačidlo Nahrávať</string>
+    <string name="record_button">Nahrávať</string>
+    <string name="cut_button">Odstrihnúť</string>
+    <string name="stop_button">Zastaviť</string>
+    <string name="cancel_button">Zrušiť</string>
+    <string name="pause_button">Pozastaviť</string>
+
+    <string name="pref_storage_title">Priečinok s nahrávkami</string>
+    <string name="pref_rate_title">Vzorkovacia frekvencia</string>
+    <string name="pref_encoding_title">Kódovanie</string>
+    <string name="pref_encoding_summary">Výstupný zvukový formát (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">Režim</string>
+    <string name="pref_mode_summary">Zvukové kanály</string>
+    <string name="pref_nameformat_title">Formát názvu súboru</string>
+    <string name="pref_pausecalls_title">Pozastaviť počas hovoru</string>
+    <string name="pref_pausecalls_summary">Zastaví nahrávanie po prijatí hovoru a po jeho ukončení bude nahrávanie pokračovať</string>
+    <string name="pref_silence_title">Tichý režim</string>
+    <string name="pref_silence_summary">Prepnúť zariadenie do tichého režimu počas nahrávania</string>
+    <string name="pref_lockscreen_title">Tlačidlá na uzamikacej obrazovke</string>
+    <string name="pref_lockscreen_summary">Zobraziť ovládacie prvky na zamikacej obrazovke</string>
+    <string name="pref_theme_title">Vzhľad</string>
+    <string name="pref_theme_summary">Farebný vzhľad aplikácie (svetlý / tmavý)</string>
+    <string name="pref_application">Aplikácia</string>
+    <string name="pref_recordings">Nahrávky</string>
+    <string name="pref_fly_title">Kódovať v reálnom čase</string>
+    <string name="pref_fly_summary">Neumožňuje úpravy a obnovenie nahrávky po páde</string>
+    <string name="hold_by_bluetooth">Pozastavené (odpojené bluetooth)</string>
+    <string name="menu_search">Hľadať</string>
+    <string name="save_as_wav">Uložiť vo formáte WAV</string>
+    <string name="auto_close">Auto close in (%1$d)</string>
+    <string name="mic_muted_error">Mic muted</string>
+    <string name="mic_muted_pie">Android Pie and above prevent idle background apps from using microphone. Please disable selinux or install previous android version!</string>
+    <string name="mic_paused">Mic paused by OS, recording time is less then data recorded, check if you device supports background recording or it is fast enougth for selected settings</string>
+    <string name="tile_start_recording">Start Recording</string>
+    <string name="tile_stop_recording">Stop Recording</string>
+</resources>

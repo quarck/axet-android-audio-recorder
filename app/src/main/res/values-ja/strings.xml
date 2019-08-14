@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (デフォルト)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (電話)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mic</item>
+        <item>Unprocessed</item>
+        <item>Bluetooth</item>
+    </string-array>
+
+    <string-array name="themes_text">
+        <item>テーマ ホワイト</item>
+        <item>テーマ ダーク</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>モノ (デフォルト)</item>
+        <item>ステレオ</item>
+    </string-array>
+
+    <string name="no_folder_app">フォルダーを表示するアプリケーションがインストールされていません</string>
+    <string name="hold_by_call">一時停止 (着信により保留)</string>
+    <string name="recording_status_recording">録音中</string>
+    <string name="recording_status_encoding">エンコーディング</string>
+    <string name="recording_status_pause">一時停止</string>
+    <string name="recording_status_edit">編集</string>
+    <string name="confirm_cancel">キャンセルの確認</string>
+    <string name="encoding_title">エンコード中...</string>
+    <string name="recording_title">録音中</string>
+    <string name="pause_title">一時停止...</string>
+    <string name="open_recording_folder">録音フォルダーを開く</string>
+    <string name="recording_list_is_empty">録音リストは空です\n\n録音をクリックすると録音を開始します</string>
+    <string name="record_button">Record</string>
+    <string name="cut_button">Cut</string>
+    <string name="stop_button">Stop</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="pause_button">Pause</string>
+
+    <string name="pref_storage_title">ストレージのパス</string>
+    <string name="pref_rate_title">サンプルレート</string>
+    <string name="pref_encoding_title">エンコーディング</string>
+    <string name="pref_encoding_summary">出力ファイル形式 (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">モード</string>
+    <string name="pref_mode_summary">録音チャンネル</string>
+    <string name="pref_nameformat_title">名前の書式</string>
+    <string name="pref_pausecalls_title">着信時に一時停止</string>
+    <string name="pref_pausecalls_summary">着信して通話をする間、録音を停止します</string>
+    <string name="pref_silence_title">マナーモード</string>
+    <string name="pref_silence_summary">録音中、電話を \'マナーモード\' にします</string>
+    <string name="pref_lockscreen_title">ロック画面コントロール</string>
+    <string name="pref_lockscreen_summary">電話がロックされた時にコントロールを表示します</string>
+    <string name="pref_theme_title">アプリケーションのテーマ</string>
+    <string name="pref_theme_summary">アプリケーションのテーマを設定します (ダーク / ライト)</string>
+    <string name="pref_application">Application</string>
+    <string name="pref_recordings">Recordings</string>
+    <string name="pref_fly_title">Encoding on Fly</string>
+    <string name="pref_fly_summary">Encoding on fly disable editing, and crash recovery</string>
+    <string name="hold_by_bluetooth">pause (bluetooth disconnected)</string>
+    <string name="menu_search">Search</string>
+    <string name="save_as_wav">Save as WAV</string>
+    <string name="auto_close">Auto close in (%1$d)</string>
+    <string name="mic_muted_error">Mic muted</string>
+    <string name="mic_muted_pie">Android Pie and above prevent idle background apps from using microphone. Please disable selinux or install previous android version!</string>
+    <string name="mic_paused">Mic paused by OS, recording time is less then data recorded, check if you device supports background recording or it is fast enougth for selected settings</string>
+    <string name="tile_start_recording">Start Recording</string>
+    <string name="tile_stop_recording">Stop Recording</string>
+</resources>

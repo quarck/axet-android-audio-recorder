@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (défault)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (téléphone)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mic</item>
+        <item>Unprocessed</item>
+        <item>Bluetooth</item>
+    </string-array>
+
+    <string-array name="themes_text">
+        <item>Thème Clair</item>
+        <item>Thème Sombre</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (défault)</item>
+        <item>Stéréo</item>
+    </string-array>
+
+    <string name="no_folder_app">Aucune application installé pour visionner le dossier</string>
+    <string name="hold_by_call">pause (hold by call)</string>
+    <string name="recording_status_recording">enregistrement</string>
+    <string name="recording_status_encoding">encodage</string>
+    <string name="recording_status_pause">pause</string>
+    <string name="recording_status_edit">édition</string>
+    <string name="confirm_cancel">Confirmer l\'annulation</string>
+    <string name="encoding_title">Encodage...</string>
+    <string name="pause_title">Pause...</string>
+    <string name="recording_title">enregistrement</string>
+    <string name="open_recording_folder">Ouvrir le dossier d\'enregistrement</string>
+    <string name="recording_list_is_empty">La liste d\'enregistrement est vide\n\nCliquer sur Enregistrer pour commencer l\'enregistrement</string>
+    <string name="record_button">Enregistrer</string>
+    <string name="cut_button">Couper</string>
+    <string name="stop_button">Stopper</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="pause_button">Pause</string>
+
+    <string name="pref_storage_title">Dossier de stockage</string>
+    <string name="pref_rate_title">Taux d\'échantillonnage</string>
+    <string name="pref_encoding_title">Encodage</string>
+    <string name="pref_encoding_summary">Formats de sortie (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">Mode</string>
+    <string name="pref_mode_summary">Canaux d\'enregistrements</string>
+    <string name="pref_nameformat_title">Format de nommage</string>
+    <string name="pref_pausecalls_title">Mettre en pause durant les appels</string>
+    <string name="pref_pausecalls_summary">Arrêtez l\'enregistrement lorsque vous répondez à un appel et se poursuit lorsque vous posez</string>
+    <string name="pref_silence_title">Mode Silence</string>
+    <string name="pref_silence_summary">Mettre le téléphone en mode silencieux pendant l\'enregistrement</string>
+    <string name="pref_lockscreen_title">Contrôles écran éteint</string>
+    <string name="pref_lockscreen_summary">Montrez les contrôles quand le téléphone est vérrouillé</string>
+    <string name="pref_theme_title">Application du Theme</string>
+    <string name="pref_theme_summary">Appliquer le théme (Sombre | Blanc)</string>
+    <string name="pref_application">Application</string>
+    <string name="pref_recordings">Recordings</string>
+    <string name="pref_fly_title">Encoding on Fly</string>
+    <string name="pref_fly_summary">Encoding on fly disable editing, and crash recovery</string>
+    <string name="hold_by_bluetooth">pause (bluetooth disconnected)</string>
+    <string name="menu_search">Search</string>
+    <string name="save_as_wav">Save as WAV</string>
+    <string name="auto_close">Auto close in (%1$d)</string>
+    <string name="mic_muted_error">Mic muted</string>
+    <string name="mic_muted_pie">Android Pie and above prevent idle background apps from using microphone. Please disable selinux or install previous android version!</string>
+    <string name="mic_paused">Mic paused by OS, recording time is less then data recorded, check if you device supports background recording or it is fast enougth for selected settings</string>
+    <string name="tile_start_recording">Start Recording</string>
+    <string name="tile_stop_recording">Stop Recording</string>
+</resources>
